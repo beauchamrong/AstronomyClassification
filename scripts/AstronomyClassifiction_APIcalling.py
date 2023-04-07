@@ -14,7 +14,7 @@ def APIcalling():
 
     # Set output directory
     for query in queries:
-        output_directory = r"project_root/raw/"+ query + "_images" # Directory where to save the images, create several subdirectories depending on the query
+        output_directory = r"project_root/data/raw/"+ query + "_images" # Directory where to save the images, create several subdirectories depending on the query
 
         # Create output directory if it doesn't exist
         if not os.path.exists(output_directory):
